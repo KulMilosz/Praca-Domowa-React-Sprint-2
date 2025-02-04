@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  background-color: #c4eff5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#starting-site {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#starting-site > button {
+  width: 300px;
+  height: 40px;
+  background-color: #0a83f57a;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#text-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#text-wrapper > h1 {
+  font-size: 40px;
+}
+
+#end-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 3px solid #9400d3; /* Stylish purple border */
+  border-radius: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+#quiz-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#quiz-section > button {
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: #9400d3;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#button-wrapper > button {
+  height: 40px;
+  width: 500px;
+  border-radius: 8px;
+  border: none;
+  background-color: #06a335;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 30px 50px 30px 50px;
+}
+
+#button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
